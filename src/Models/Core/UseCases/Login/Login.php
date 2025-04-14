@@ -1,9 +1,9 @@
 <?php
 
-namespace src\Core\UseCases\Login;
-use src\Core\Entities\Users\Iusers;
-use src\DataInMemory\Interface\IUsersInMemory;
-use src\DataInMemory\UsersInMemory;
+namespace src\Models\Core\UseCases\Login;
+use src\Models\Core\Entities\Users\Iusers;
+use src\Models\DataInMemory\Interface\IUsersInMemory;
+use src\Models\DataInMemory\UsersInMemory;
 
 class Login
 {

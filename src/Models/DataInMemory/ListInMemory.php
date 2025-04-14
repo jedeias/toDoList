@@ -1,11 +1,11 @@
 <?php
 
-namespace src\DataInMemory;
-use src\DataInMemory\Interface\IUsersInMemory;
-use src\DataInMemory\Interface\IListInMemory;
-use src\Core\Entities\Lists\Ilist;
-use src\Core\Entities\Lists\Lists;
-use src\Core\Entities\Strategy;
+namespace src\Models\DataInMemory;
+use src\Models\DataInMemory\Interface\IUsersInMemory;
+use src\Models\DataInMemory\Interface\IListInMemory;
+use src\Models\Core\Entities\Lists\Ilist;
+use src\Models\Core\Entities\Lists\Lists;
+use src\Models\Core\Entities\Strategy;
 
 class ListInMemory implements IListInMemory{
     private array $list = [];
@@ -55,6 +55,9 @@ class ListInMemory implements IListInMemory{
         return null;
     }
 
+    public function getByPk(int $pk): ?Ilist{
+        return $this->list[$pk] ?? null;
+    }
     
 }
 

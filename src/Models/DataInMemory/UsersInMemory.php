@@ -1,11 +1,11 @@
 <?php
 
-namespace src\DataInMemory;
-
-use src\DataInMemory\Interface\IUsersInMemory;
-use src\Core\Entities\Users\Iusers;
-use src\Core\Entities\Users\Users;
-
+namespace src\Models\DataInMemory;
+    
+use src\Models\DataInMemory\Interface\IUsersInMemory;
+use src\Models\Core\Entities\Users\Iusers;
+use src\Models\Core\Entities\Users\Users;
+    
 class UsersInMemory implements IUsersInMemory {
     private array $users = [];
 
@@ -13,10 +13,12 @@ class UsersInMemory implements IUsersInMemory {
         $user1 = new Users();
         $user2 = new Users();
 
+        $user1->setNome("João");
         $user1->setEmail("joao@email.com");
         $user1->setSenha("123456");
         $user1->setTipo("admin");
-
+        
+        $user2->setNome("sebastiãoClemensioDaSilvaCravalhoDeOLiveiraJoana");
         $user2->setEmail("sebastiãoClemensioDaSilvaCravalhoDeOLiveiraJoana@email.com");
         $user2->setSenha("123456");
         $user2->setTipo("comum");
@@ -54,8 +56,8 @@ class UsersInMemory implements IUsersInMemory {
         return null;
     }
 
-    public function getByIndex(int $index): ?Iusers {
-        return $this->users[$index] ?? null;
+    public function getByPk(int $pk): ?Iusers {
+        return $this->users[$pk] ?? null;
     }
 }
 

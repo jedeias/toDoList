@@ -4,14 +4,16 @@ namespace src\Tests;
 
 require_once("vendor/autoload.php");
 
-use src\DataInMemory\ListInMemory;
-use src\Core\Entities\Lists\Lists;
-use src\Core\Entities\Users\Iusers;
-use src\Core\Entities\Strategy;
+use src\Models\DataInMemory\ListInMemory;
+use src\Models\Core\Entities\Lists\Lists;
+use src\Models\Core\Entities\Users\Iusers;
+use src\Models\Core\Entities\Strategy;
 
 $testListInMemory = new ListInMemory();
 
 $lista = new Lists();
+
+$testListInMemory->getAll();
 
 $doing = new Strategy\Doing();
 

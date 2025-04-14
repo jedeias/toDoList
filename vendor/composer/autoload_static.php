@@ -22,6 +22,20 @@ class ComposerStaticInit3dd83756756a5fd42d70c1c6c64b988d
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'src\\Controllers\\ListeController' => __DIR__ . '/../..' . '/Src/Controllers/ListeController.php',
+        'src\\Controllers\\LoginContoller' => __DIR__ . '/../..' . '/Src/Controllers/LoginContoller.php',
+        'src\\Controllers\\UsersController' => __DIR__ . '/../..' . '/Src/Controllers/UsersController.php',
+        'src\\Models\\Core\\Entities\\Lists\\Ilist' => __DIR__ . '/../..' . '/Src/Models/Core/Entities/Lists/Ilist.php',
+        'src\\Models\\Core\\Entities\\Lists\\Lists' => __DIR__ . '/../..' . '/Src/Models/Core/Entities/Lists/Lists.php',
+        'src\\Models\\Core\\Entities\\Strategy\\Doing' => __DIR__ . '/../..' . '/Src/Models/Core/Entities/Strategy/Doing.php',
+        'src\\Models\\Core\\Entities\\Strategy\\Done' => __DIR__ . '/../..' . '/Src/Models/Core/Entities/Strategy/Done.php',
+        'src\\Models\\Core\\Entities\\Strategy\\IstrategyStatus' => __DIR__ . '/../..' . '/Src/Models/Core/Entities/Strategy/IstrategyStatus.php',
+        'src\\Models\\Core\\Entities\\Strategy\\ToDo' => __DIR__ . '/../..' . '/Src/Models/Core/Entities/Strategy/ToDo.php',
+        'src\\Models\\Core\\Entities\\Users\\Iusers' => __DIR__ . '/../..' . '/Src/Models/Core/Entities/Users/Iusers.php',
+        'src\\Models\\Core\\Entities\\Users\\Users' => __DIR__ . '/../..' . '/Src/Models/Core/Entities/Users/Users.php',
+        'src\\Models\\Core\\UseCases\\Login\\Login' => __DIR__ . '/../..' . '/Src/Models/Core/UseCases/Login/Login.php',
+        'src\\Models\\DataInMemory\\ListInMemory' => __DIR__ . '/../..' . '/Src/Models/DataInMemory/ListInMemory.php',
+        'src\\Models\\DataInMemory\\UsersInMemory' => __DIR__ . '/../..' . '/Src/Models/DataInMemory/UsersInMemory.php',
         'src\\Tests\\AutoloadShare' => __DIR__ . '/../..' . '/Src/Tests/AutoloadShare.php',
     );
 

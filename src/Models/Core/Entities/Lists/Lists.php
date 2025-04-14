@@ -1,10 +1,10 @@
 <?php
 
-namespace src\Core\Entities\Lists;
-use src\Core\Entities\Lists\Ilist;
-use src\Core\Entities\users\Iusers;
-use src\Core\Entities\Strategy\IstrategyStatus;
-use src\Core\Entities\Strategy\ToDo
+namespace src\Models\Core\Entities\Lists;
+use src\Models\Core\Entities\Lists\Ilist;
+use src\Models\Core\Entities\users\Iusers;
+use src\Models\Core\Entities\Strategy\IstrategyStatus;
+use src\Models\Core\Entities\Strategy\ToDo
 ;
 class Lists Implements Ilist {
     private int $pk;

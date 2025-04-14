@@ -1,7 +1,7 @@
 <?php
 
-namespace src\DataInMemory\Interface;
-use src\Core\Entities\Lists\Ilist;
+namespace src\Models\DataInMemory\Interface;
+use src\Models\Core\Entities\Lists\Ilist;
 
 interface IListInMemory{
     public function getAll(): array;

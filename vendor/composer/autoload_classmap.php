@@ -7,5 +7,19 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'src\\Controllers\\ListeController' => $baseDir . '/Src/Controllers/ListeController.php',
+    'src\\Controllers\\LoginContoller' => $baseDir . '/Src/Controllers/LoginContoller.php',
+    'src\\Controllers\\UsersController' => $baseDir . '/Src/Controllers/UsersController.php',
+    'src\\Models\\Core\\Entities\\Lists\\Ilist' => $baseDir . '/Src/Models/Core/Entities/Lists/Ilist.php',
+    'src\\Models\\Core\\Entities\\Lists\\Lists' => $baseDir . '/Src/Models/Core/Entities/Lists/Lists.php',
+    'src\\Models\\Core\\Entities\\Strategy\\Doing' => $baseDir . '/Src/Models/Core/Entities/Strategy/Doing.php',
+    'src\\Models\\Core\\Entities\\Strategy\\Done' => $baseDir . '/Src/Models/Core/Entities/Strategy/Done.php',
+    'src\\Models\\Core\\Entities\\Strategy\\IstrategyStatus' => $baseDir . '/Src/Models/Core/Entities/Strategy/IstrategyStatus.php',
+    'src\\Models\\Core\\Entities\\Strategy\\ToDo' => $baseDir . '/Src/Models/Core/Entities/Strategy/ToDo.php',
+    'src\\Models\\Core\\Entities\\Users\\Iusers' => $baseDir . '/Src/Models/Core/Entities/Users/Iusers.php',
+    'src\\Models\\Core\\Entities\\Users\\Users' => $baseDir . '/Src/Models/Core/Entities/Users/Users.php',
+    'src\\Models\\Core\\UseCases\\Login\\Login' => $baseDir . '/Src/Models/Core/UseCases/Login/Login.php',
+    'src\\Models\\DataInMemory\\ListInMemory' => $baseDir . '/Src/Models/DataInMemory/ListInMemory.php',
+    'src\\Models\\DataInMemory\\UsersInMemory' => $baseDir . '/Src/Models/DataInMemory/UsersInMemory.php',
     'src\\Tests\\AutoloadShare' => $baseDir . '/Src/Tests/AutoloadShare.php',
 );

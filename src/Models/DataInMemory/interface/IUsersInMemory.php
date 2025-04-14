@@ -1,7 +1,7 @@
 <?php
 
-namespace src\DataInMemory\Interface;
-use src\Core\Entities\Users\Iusers;
+namespace src\Models\DataInMemory\Interface;
+use src\Models\Core\Entities\Users\Iusers;
 
 interface IUsersInMemory
 {

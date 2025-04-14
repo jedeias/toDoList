@@ -4,8 +4,8 @@ namespace src\Tests;
 
 include_once("vendor/autoload.php");
 
-use src\Core\UseCases\Login\Login;
-use src\Core\Entities\Users\Users;
+use src\Models\Core\UseCases\Login\Login;
+use src\Models\Core\Entities\Users\Users;
 
 
 $usuario = new Users();

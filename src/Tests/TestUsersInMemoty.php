@@ -1,8 +1,8 @@
 <?php
 
 namespace src\Tests;
-use src\Core\Entities\Users\Users;
-use src\DataInMemory\UsersInMemory;
+use src\Models\Core\Entities\Users\Users;
+use src\Models\DataInMemory\UsersInMemory;
 
 require_once "vendor/autoload.php";
 

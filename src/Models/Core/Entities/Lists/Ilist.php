@@ -1,9 +1,9 @@
 <?php
 
-namespace src\Core\Entities\Lists;
+namespace src\Models\Core\Entities\Lists;
 
-use src\Core\Entities\Users\Iusers;
-use src\Core\Entities\Strategy\IstrategyStatus;
+use src\Models\Core\Entities\Users\Iusers;
+use src\Models\Core\Entities\Strategy\IstrategyStatus;
 
 interface Ilist {
   function getPk(): int;

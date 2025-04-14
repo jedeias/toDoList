@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Core\Entities\Users;
+namespace src\Models\Core\Entities\Users;
 
 class Users implements Iusers {
   private int $pk;
