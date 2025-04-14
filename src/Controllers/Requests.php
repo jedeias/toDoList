@@ -21,6 +21,9 @@ $methodRequest: string
 $parameters: array
 */
 
+class requests{
+    
+}
 
 
 ?>
